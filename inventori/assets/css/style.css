@@ -1,0 +1,11 @@
+#navigasi {
+	background-color: #7191FB;
+	padding-top: 50px;
+}
+#status1 {
+    border: 20px solid red;
+    border-radius: 20px;
+    border-width: 30px 10px 4px 8px;
+ 	border-color: #F9B7B7;
+ 	background-color: #F9B7B7;
+ }
