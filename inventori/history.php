@@ -39,13 +39,14 @@
 					<th>Kode Barang</th>
 					<th> Nama Barang </th>
 					<th>Jenis Barang</th>
+					<th>Date</th>
 					
 				</tr>
 			</thead>
 			<tbody>
 			
 			<?php 
-				$query = 'select alat.kode_barang, alat.nama_barang,alat.jenis_barang from alat INNER JOIN pinjam where alat.kode_barang= history.kode_barang';
+				$query = 'select alat.kode_barang, alat.nama_barang,alat.jenis_barang,date from alat INNER JOIN history where alat.kode_barang= history.kode_barang';
 				$result = mysqli_query($connection, $query);
 				if (!$result) {
 					printf("Error: %s\n", mysqli_error($connection));
@@ -59,6 +60,7 @@
 					<td> <?php echo $data['kode_barang'] ?>	</td>
 					<td> <?php echo $data['nama_barang'] ?>	</td>
 					<td> <?php echo $data['jenis_barang'] ?></td>
+					<td> <?php echo $data['date'] ?></td>
 					
 				</tr>
 
