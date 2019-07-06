@@ -14,19 +14,42 @@
 
 <body>
 
-<div class="nav" id="navigasi">
+<!-- <div class="nav" id="navigasi">
 	<div class="row">
 		<div class="col-md-8" ></div>
 		
 	</div>
-</div>
+</div> -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Inventori</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="halaman_admin.php">Home</a></li>
+      <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li> -->
+      <li><a href="pinjam_barang.php">Pinjam barang</a></li>
+      <li><a href="history.php">History</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="profile.php"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+      <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
 
 <div class="container"> 
-		<div class="col-md-12">
+		<!-- <div class="col-md-12">
 			<h2> Status Peminjaman </h2>
 			<h5 id="status1"> Anda belum mengembalikan barang AAA</h4>
-		</div>
-		<div  class="col-md-4">
+		</div> -->
+		<!-- <div  class="col-md-4">
 			<a class="btn btn-success" href="pinjam_barang.php">
 				Pinjam Barang
 			</a>
@@ -36,13 +59,13 @@
 				Kembalikan Barang
 			</a>
 			
-		</div>
-		<div class="col-md-4">
+		</div> -->
+		<!-- <div class="col-md-4">
 			<a class="btn btn-success" href="logout.php">
 				Logout
 			</a>
 			
-		</div>
+		</div> -->
 	<h3 align="center">Daftar Barang Yang Belum Dikembalikan</h3>
 
 <div class="container">
@@ -87,6 +110,21 @@
 		</table>
 
 </div>
+	<!-- <div  class="col-md-4">
+			<a class="btn btn-success" href="pinjam_barang.php">
+				Pinjam Barang
+			</a>
+	</div> -->
+	<div class="col-md-4">
+			<a class="btn btn-success" href="kembalikan_barang.php">
+				Kembalikan Barang
+			</a>
+	</div>
+	<!-- <div class="col-md-4">
+			<a class="btn btn-success" href="logout.php">
+				Logout
+			</a>
+	</div> -->
 </div>
 
 

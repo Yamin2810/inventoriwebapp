@@ -14,7 +14,6 @@
 <div class="nav" id="navigasi">
 	<div class="row">
 		<div class="col-md-8" ></div>
-		
 	</div>
 </div>
 

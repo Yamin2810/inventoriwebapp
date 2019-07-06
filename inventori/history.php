@@ -15,19 +15,12 @@
 <body>
 
 <div class="nav" id="navigasi">
-	<div class="row">
-		<div class="col-md-8" ></div>
-		
-	</div>
+	<ul class="nav navbar-nav navbar-right">
+		<li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>	
+	</ul>
 </div>
 
 <div class="container"> 
-		<div class="col-md-4">
-			<a class="btn btn-success" href="logout.php">
-				Logout
-			</a>
-			
-		</div>
 	<h3 align="center">Daftar Barang Yang Pernah Dipinjam</h3>
 
 <div class="container">
