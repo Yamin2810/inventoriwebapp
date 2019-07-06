@@ -27,7 +27,7 @@
 			<div class="user_card">
 				<div class="d-flex justify-content-center">
 					<div class="brand_logo_container">
-               <img src="PNJ.png" class="brand_logo" alt="Logo">
+               <img src="assets/image/PNJ.png" class="brand_logo" alt="Logo">
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
@@ -36,13 +36,13 @@
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="text" name="username" class="form-control input_user">
+							<input type="text" name="username" class="form-control input_user" placeholder="username">
 						</div>
 						<div class="input-group mb-2">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" name="password" class="form-control input_pass">
+							<input type="password" name="password" class="form-control input_pass" placeholder="password">
 						</div>
 						<div class="form-group">
 							
