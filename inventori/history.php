@@ -1,5 +1,6 @@
 <?php
-	include  'database.php';
+session_start();
+include  'database.php';
  ?>
 <!DOCTYPE html>
 <html>
@@ -30,7 +31,7 @@
 				<tr>
 					<th>no</th>
 					<th>Kode Barang</th>
-					<th> Nama Barang </th>
+					<th> Peminjam </th>
 					<th>Jenis Barang</th>
 					<th>Date</th>
 					
@@ -51,8 +52,8 @@
 			 	<tr>
 					<td> <?php echo $no;  ?>	</td>
 					<td> <?php echo $data['kode_barang'] ?>	</td>
+					<td> <?php echo $_SESSION['username']?></a>
 					<td> <?php echo $data['nama_barang'] ?>	</td>
-					<td> <?php echo $data['jenis_barang'] ?></td>
 					<td> <?php echo $data['date'] ?></td>
 					
 				</tr>
