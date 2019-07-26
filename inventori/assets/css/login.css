@@ -4,7 +4,7 @@
 			margin: 0;
 			padding: 0;
 			height: 100%;
-			background: #60a3bc !important;
+			background: #f4f5f5 !important;
 		}
 		.user_card {
 			height: 400px;
@@ -29,7 +29,7 @@
 			width: 170px;
 			top: -75px;
 			border-radius: 50%;
-			background: #60a3bc;
+			background: white;
 			padding: 10px;
 			text-align: center;
 		}
@@ -37,7 +37,7 @@
 			height: 150px;
 			width: 150px;
 			border-radius: 50%;
-			border: 2px solid white;
+			border: 2px solid black;
 		}
 		.form_container {
 			margin-top: 100px;
