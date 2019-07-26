@@ -4,6 +4,7 @@
    header('location:index.php'); }
    require_once("database.php");
 ?>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 <link href="assets/addons/bootstrap-4.1.1./css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="assets/addons/bootstrap-4.1.1./js/bootstrap.min.js"></script>
 <script src="assets/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,7 +16,8 @@
 <head>
 	<title>
       Login Page</title>
-	<link rel="stylesheet" href="assets/addons/bootstrap/4.1.3/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="assets/addons/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="assets/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="assets/css/all.css">
   <link rel="stylesheet" type="text/css" href="assets/css/login.css">
@@ -31,18 +33,30 @@
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
-				<form action="prosesdaftar.php" method="post">
+				<form action="prosesdaftar.php" method="post">		
 						<div class="input-group mb-3">
 							<div class="input-group-append">
-								<span class="input-group-text"><i class="fas fa-user"></i></span>
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
 							<input type="text" name="username" class="form-control input_user" placeholder="username">
 						</div>
 						<div class="input-group mb-2">
 							<div class="input-group-append">
-								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
 							<input type="password" name="password" class="form-control input_pass" placeholder="password">
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<span class="input-group-text">Prodi</span>
+							</div>
+							<input type="text" name="prodi" class="form-control input_user"placeholder="prodi">
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<span class="input-group-text">Email</span>
+							</div>
+							<input type="text" name="email" class="form-control input_user"placeholder="email">
 						</div>
 						<div class="form-group">
 							

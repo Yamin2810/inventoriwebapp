@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?>
 <html>
 <head>
 	<title>Inventory</title>
@@ -24,7 +26,7 @@
 			<form action="pinjam.php" method="post">
 				<div class="form-group"></div>
 				<label>Username</label>
-				<input type="text" name="username" class="form-control" required="true">				
+				<input type="text" name="username" class="form-control" readonly value="<?php echo $_SESSION['username']?>" required="true">				
 				<div class="form-group"></div>
 				<label>jenis barang</label>
 				<form>

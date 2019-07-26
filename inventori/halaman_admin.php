@@ -84,10 +84,7 @@
 			 ?>
 				
 			</tbody>
-
-
 		</table>
-
 </div>
 <div  class="col-md-4">
 			<a class="btn btn-success" href="tambah_barang.php">
@@ -97,17 +94,13 @@
 		<div class="col-md-4">
 			<a class="btn btn-success" href="hapus_barang.php">
 				Hapus Data
-			</a>
-			
+			</a>		
 		</div>
 		<!-- <div class="col-md-4">
 			<a class="btn btn-success" href="logout.php">
 				Logout
-			</a>
-			
+			</a>			
 		</div> -->
 </div>
-
-
 </body>
 </html>
